@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Playing Cards</title>
+    <script src="deal.js"></script>
+    <link rel="stylesheet" type="text/css" href="cards.css">
+</head>
+<body bgcolor="#3ebdef" onload="names()">
+<h1 align="center">Card Dealing Site</h1>
+<table align="center">
+    <tr>
+        <th>
+            <h2 align="center" id="player1name">Player 1 Cards</h2>
+        </th>
+        <th>
+            <h2 align="center" id="player2name">Player 2 Cards</h2>
+        </th>
+    </tr>
+    <tr>
+        <td class="container">
+            <div id="nocards">
+                <h2 align="center">No cards in deck</h2>
+            </div>
+            <div id="cardsdisplay">
+                <p style="float: left" id="p1c1img" onclick="changecard(this)"></p>
+                <p style="float: left" id="p1c2img" onclick="changecard(this)"></p>
+                <p style="float: left" id="p1c3img" onclick="changecard(this)"></p>
+                <p style="float: left" id="p1c4img" onclick="changecard(this)"></p>
+                <p style="float: left" id="p1c5img" onclick="changecard(this)"></p>
+            </div>
+        </td>
+        <td class="container">
+            <div id="nocards2">
+                <h2 align="center">No cards in deck</h2>
+            </div>
+            <div id="cardsdisplay2">
+                <p style="float: left" id="p2c1img" onclick="changecard(this)"></p>
+                <p style="float: left" id="p2c2img" onclick="changecard(this)"></p>
+                <p style="float: left" id="p2c3img" onclick="changecard(this)"></p>
+                <p style="float: left" id="p2c4img" onclick="changecard(this)"></p>
+                <p style="float: left" id="p2c5img" onclick="changecard(this)"></p>
+            </div>
+        </td>
+    </tr>
+</table>
+<center><button class="button" onclick="cardpick()">Pick Player 1 Cards</button>
+<button class="button" onclick="cardpick2()">Pick Player 2 Cards</button></center>
+<center><button class="button" onclick="clearcards()">Clear Cards</button></center>
+</body>
+</html>

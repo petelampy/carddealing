@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 80%;
+    height: 60%;
+}
+
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: middle;
+    background-color: rgba(143, 140, 141, 0.73);
+}
+
+th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    background-color: #505050;
+    color: white;
+}
+
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: black;
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #008CBA;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 14px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+td.container {
+    height: 580px;
+}
